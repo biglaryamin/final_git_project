@@ -1,0 +1,16 @@
+1.mkdir git-learn
+2.cd git-learn
+3.git init
+4.git config user.name "USERNAME"
+5.git config user.email "INFO@GMAIL.COM"
+6.touch temp.txt
+7.git status
+8.git add temp.txt //add temp.txt to staging area
+9.git rm temp.txt  //remove temp.txt from staging area
+10.git add index.html
+11.git commit -m "a useful comment" index.html  //commit a file with a comment
+12.vim index.html   //edit index.html with vim editor
+13.git commit -m "first change of index.html"  index.html  
+14.git diff HEAD^   //check the difference with last situation for all repository
+15.git diff HEAD^ [file_name]  //check the difference with last situation for one file
+
